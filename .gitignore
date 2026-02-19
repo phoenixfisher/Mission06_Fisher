@@ -1,6 +1,8 @@
 # build outputs
 bin/
 obj/
+Mission06_Fisher/obj/
+Mission06_Fisher/bin/
 
 # Rider / JetBrains
 .idea/
