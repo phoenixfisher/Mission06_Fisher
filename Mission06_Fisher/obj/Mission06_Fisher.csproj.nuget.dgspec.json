@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj": {}
+    "/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj": {}
   },
   "projects": {
-    "/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj": {
+    "/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj",
+        "projectUniqueName": "/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj",
         "projectName": "Mission06_Fisher",
-        "projectPath": "/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj",
+        "projectPath": "/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj",
         "packagesPath": "/Users/phoenixfisher/.nuget/packages/",
-        "outputPath": "/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/obj/",
+        "outputPath": "/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/phoenixfisher/.nuget/NuGet/NuGet.Config"

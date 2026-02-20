@@ -19,45 +19,45 @@ build_property.TargetFrameworkIdentifier = .NETCoreApp
 build_property.TargetFrameworkVersion = v10.0
 build_property.RootNamespace = Mission06_Fisher
 build_property.RootNamespace = Mission06_Fisher
-build_property.ProjectDir = /Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/
+build_property.ProjectDir = /Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher
+build_property.MSBuildProjectDirectory = /Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/Home/Create.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/Home/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/Home/GetToKnowJoel.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/Home/GetToKnowJoel.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9HZXRUb0tub3dKb2VsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/Home/Index.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/Movies/Create.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/Movies/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTW92aWVzL0NyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/Shared/_ValidationScriptsPartial.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/_ViewImports.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/_ViewStart.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Views/Shared/_Layout.cshtml]
+[/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-1kbfxrwbkk

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4b1eQbJSpG0=",
+  "dgSpecHash": "Gboi9yfZksU=",
   "success": true,
-  "projectFilePath": "/Users/phoenixfisher/Documents/School/Major/IS/IS 413/RiderProjects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj",
+  "projectFilePath": "/Users/phoenixfisher/Projects/Mission06_Fisher/Mission06_Fisher/Mission06_Fisher.csproj",
   "expectedPackageFiles": [
     "/Users/phoenixfisher/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/phoenixfisher/.nuget/packages/microsoft.build.framework/18.0.2/microsoft.build.framework.18.0.2.nupkg.sha512",
