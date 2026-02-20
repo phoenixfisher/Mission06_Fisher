@@ -3,37 +3,38 @@
 <h2>Add Movie</h2>
 
 <form asp-action="Create" method="post">
-    <div>
-        <label>Title</label>
-        <input asp-for="Title" />
-        <span asp-validation-for="Title"></span>
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
     </div>
 
-    <div>
-        <label>Year</label>
-        <input asp-for="Year" type="number" min="1888" />
-        <span asp-validation-for="Year"></span>
+    <div class="mb-3">
+        <label asp-for="Year" class="form-label"></label>
+        <input asp-for="Year" type="number" min="1888" class="form-control" />
+        <span asp-validation-for="Year" class="text-danger"></span>
     </div>
 
-    <div>
-        <label>Edited</label>
-        <input asp-for="Edited" type="checkbox" />
-        <span asp-validation-for="Edited"></span>
+    <div class="form-check mb-2">
+        <input asp-for="Edited" type="checkbox" class="form-check-input" />
+        <label asp-for="Edited" class="form-check-label"></label>
+        <span asp-validation-for="Edited" class="text-danger"></span>
     </div>
 
-    <div>
-        <label>Copied To Plex</label>
-        <input asp-for="CopiedToPlex" type="checkbox" />
-        <span asp-validation-for="CopiedToPlex"></span>
+    <div class="form-check mb-3">
+        <input asp-for="CopiedToPlex" type="checkbox" class="form-check-input" />
+        <label asp-for="CopiedToPlex" class="form-check-label"></label>
+        <span asp-validation-for="CopiedToPlex" class="text-danger"></span>
     </div>
 
-    <div>
-        <label>Notes (max 25 chars)</label>
-        <input asp-for="Notes" maxlength="25" />
-        <span asp-validation-for="Notes"></span>
+    <div class="mb-3">
+        <label asp-for="Notes" class="form-label">Notes (max 25 chars)</label>
+        <input asp-for="Notes" maxlength="25" class="form-control" />
+        <span asp-validation-for="Notes" class="text-danger"></span>
     </div>
 
     <button type="submit" class="btn btn-primary">Add Movie</button>
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
 </form>
 
 @section Scripts {

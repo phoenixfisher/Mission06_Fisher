@@ -33,8 +33,8 @@
             <td>@movie.CopiedToPlex</td>
             <td>@movie.Notes</td>
             <td>
-                <a asp-action="Edit" asp-route-id="@movie.MovieId" class="btn btn-light">Edit</a>
-                <a asp-action="Delete" asp-route-id="@movie.MovieId" class="btn btn-danger">Delete</a>
+                <a class="btn btn-light" asp-action="Edit" asp-route-id="@movie.MovieId">Edit</a>
+                <a class="btn btn-danger" asp-action="Delete" asp-route-id="@movie.MovieId">Delete</a>
             </td>
         </tr>
     }

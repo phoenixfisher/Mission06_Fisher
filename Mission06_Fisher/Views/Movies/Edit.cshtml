@@ -10,29 +10,29 @@
 <form asp-action="Edit" method="post">
     <input type="hidden" asp-for="MovieId" />
     
-    <div>
-        <label asp-for="Title"></label>
-        <input asp-for="Title" />
+    <div class="mb-3">
+        <label asp-for="Title" class="form-label"></label>
+        <input asp-for="Title" class="form-control" />
     </div>
     
-    <div>
-        <label asp-for="Year"></label>
-        <input asp-for="Year" type="number" min="1888" />
+    <div class="mb-3">
+        <label asp-for="Year" class="form-label"></label>
+        <input asp-for="Year" type="number" min="1888" class="form-control" />
     </div>
     
-    <div>
-        <label asp-for="Edited"></label>
-        <input asp-for="Edited" type="checkbox" />
+    <div class="form-check mb-2">
+        <input asp-for="Edited" type="checkbox" class="form-check-input" />
+        <label asp-for="Edited" class="form-check-label"></label>
     </div>
     
-    <div>
-        <label asp-for="CopiedToPlex"></label>
-        <input asp-for="CopiedToPlex" type="checkbox" />
+    <div class="form-check mb-3">
+        <input asp-for="CopiedToPlex" type="checkbox" class="form-check-input" />
+        <label asp-for="CopiedToPlex" class="form-check-label"></label>
     </div>
     
-    <div>
-        <label asp-for="Notes"></label>
-        <input asp-for="Notes" maxlength="25" />
+    <div class="mb-3">
+        <label asp-for="Notes" class="form-label"></label>
+        <input asp-for="Notes" maxlength="25" class="form-control" />
     </div>
     
     <button type="submit" class="btn btn-primary">Save</button>
