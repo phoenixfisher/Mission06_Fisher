@@ -36,5 +36,3 @@ appsettings.Development.json
 *.Local.*
 /bin/
 /obj/
-/bin/
-/obj/
