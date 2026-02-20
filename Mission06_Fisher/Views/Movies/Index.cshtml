@@ -1,8 +1,42 @@
-@model TModel
+@model IEnumerable<Mission06_Fisher.Models.Movie>
 
 @{
-    ViewBag.Title = "title";
+    ViewBag.Title = "Movie Collection";
     Layout = "_Layout";
 }
 
-<h2>title</h2>
+<h2>The Joel Hilton Film Collection</h2>
+
+<p>
+    <a asp-action="Create" class="btn btn-primary">Add Movie</a>
+</p>
+
+<table class="table table-striped table-dark">
+    <thead>
+    <tr>
+        <th>Title</th>
+        <th>Year</th>
+        <th>Edited</th>
+        <th>Copied To Plex</th>
+        <th>Notes</th>
+        <th></th>
+    </tr>
+    </thead>
+    
+    <tbody>
+    @foreach (var movie in Model)
+    {
+        <tr>
+            <td>@movie.Title</td>
+            <td>@movie.Year</td>
+            <td>@movie.Edited</td>
+            <td>@movie.CopiedToPlex</td>
+            <td>@movie.Notes</td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@movie.MovieId" class="btn btn-primary">Edit</a>
+                <a asp-action="Delete" asp-route-id="@movie.MovieId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

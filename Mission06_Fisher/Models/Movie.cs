@@ -1,47 +1,22 @@
 namespace Mission06_Fisher.Models;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-public enum Rating
+using System.ComponentModel.DataAnnotations;public class Movie
 {
-    G,
-    PG,
-    PG13,
-    R
-}
-
-public class Movie
-{
-    public int Id { get; set; }
+    public int MovieId { get; set; }   // required for primary key
 
     [Required]
-    public int CategoryId { get; set; }
-    public Category Category { get; set; } = null!;
+    public string Title { get; set; } = null!;
 
     [Required]
-    [StringLength(200)]
-    public string Title { get; set; } = string.Empty;
-
-    // Year could be a string to allow ranges like "2001-2002"
-    [Required]
-    [StringLength(20)]
-    public string Year { get; set; } = string.Empty;
-
-    [Required]
-    public int DirectorId { get; set; }
-    public Director Director { get; set; } = null!;
-
-    [Required]
-    public Rating Rating { get; set; }
+    [Range(1888, 3000)]
+    public int Year { get; set; }
 
     [Required]
     public bool Edited { get; set; }
 
-    [StringLength(100)]
-    public string? LentTo { get; set; }
+    [Required]
+    public bool CopiedToPlex { get; set; }
 
     [StringLength(25)]
     public string? Notes { get; set; }
-
-    public DateTime DateAdded { get; set; } = DateTime.UtcNow;
 }
