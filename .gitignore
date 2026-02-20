@@ -34,3 +34,7 @@ Thumbs.db
 # user secrets, local settings
 appsettings.Development.json
 *.Local.*
+/bin/
+/obj/
+/bin/
+/obj/
